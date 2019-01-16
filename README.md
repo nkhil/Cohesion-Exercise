@@ -8,7 +8,7 @@ This was a Makers academy exercise in understanding best practices for cohesion,
 
 **Best Practice**
 
-```
+```ruby
 class SecretDiary
   def initialize(lock = Locker.new) #Where Locker is a dependency
     @lock = lock
